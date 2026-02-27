@@ -1,0 +1,25 @@
+{
+  "name": "vangrapf-youtube-proxy",
+  "version": "1.0.0",
+  "description": "Специальный Cloudflare Worker для обхода блокировки YouTube видео на Vangrapf",
+  "main": "main/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:staging": "wrangler deploy --env staging",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "cloudflare-worker",
+    "youtube",
+    "proxy",
+    "bypass",
+    "russia",
+    "vangrapf"
+  ],
+  "author": "Kolyadual",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+} 
