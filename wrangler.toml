@@ -7,3 +7,7 @@ name = "vangrapf-youtube-proxy"
 
 [env.staging]
 name = "vangrapf-youtube-proxy-staging" 
+
+[placement]
+mode = "region"
+region = "gcp:europe-west1"
